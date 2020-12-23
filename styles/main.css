@@ -12,3 +12,52 @@
   --font-size-nav: 16px;
   --font-title: 30px;
 }
+
+/*HEADER*/
+
+.header {
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-direction: column; /*nota media queries*/
+  align-items: center;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.logo {
+  width: 150px;
+  padding: 10px;
+}
+
+.menu {
+  font-family: var(--font-family);
+  font-size: var(--font-size-nav);
+  color: var(--menu-text-color);
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+/*MAIN*/
+
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--main-color);
+}
+
+.title {
+  font-family: var(--font-family);
+  font-size: var(--font-title);
+}
+
+.title-item {
+  text-align: center;
+  display: block;
+  color: var(--title-color);
+}
