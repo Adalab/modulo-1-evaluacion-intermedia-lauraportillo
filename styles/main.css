@@ -31,14 +31,26 @@
 }
 
 .menu {
+  display: flex;
+  text-align: center;
+  list-style-type: none;
+  margin-bottom: 13px;
+}
+
+.blog {
+  margin-right: 10px;
+  text-decoration: none;
   font-family: var(--font-family);
   font-size: var(--font-size-nav);
   color: var(--menu-text-color);
-  display: flex;
-  justify-content: space-between;
-  text-align: center;
-  list-style-type: none;
+}
+
+.contacto {
+  margin-left: 10px;
   text-decoration: none;
+  font-family: var(--font-family);
+  font-size: var(--font-size-nav);
+  color: var(--menu-text-color);
 }
 
 /*MAIN*/
