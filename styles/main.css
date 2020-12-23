@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-family: "Rubik", sans-serif;
+  --menu-text-color: #4a4a4a;
+  --main-color: #3cdbc0;
+  --title-color: #ffffff;
+  --font-size-nav: 16px;
+  --font-title: 30px;
+}
